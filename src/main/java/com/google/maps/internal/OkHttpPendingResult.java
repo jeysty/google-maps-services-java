@@ -36,9 +36,6 @@ import com.google.maps.model.PlaceDetails.Review.AspectRating.RatingType;
 import com.google.maps.model.PriceLevel;
 import com.google.maps.model.TravelMode;
 import java.io.IOException;
-import java.time.Instant;
-import java.time.LocalTime;
-import java.time.ZonedDateTime;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ArrayBlockingQueue;
@@ -51,6 +48,9 @@ import okhttp3.Response;
 import okhttp3.ResponseBody;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.threeten.bp.Instant;
+import org.threeten.bp.LocalTime;
+import org.threeten.bp.ZonedDateTime;
 
 /**
  * A PendingResult backed by a HTTP call executed by OkHttp, a deserialization step using Gson, rate

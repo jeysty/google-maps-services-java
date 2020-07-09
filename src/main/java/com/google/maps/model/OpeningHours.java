@@ -15,8 +15,9 @@
 
 package com.google.maps.model;
 
+import org.threeten.bp.LocalTime;
+
 import java.io.Serializable;
-import java.time.LocalTime;
 import java.util.Arrays;
 
 /**

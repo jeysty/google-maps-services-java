@@ -15,9 +15,10 @@
 
 package com.google.maps.model;
 
+import org.threeten.bp.Instant;
+
 import java.io.Serializable;
 import java.net.URL;
-import java.time.Instant;
 import java.util.Arrays;
 
 /**
